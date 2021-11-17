@@ -1,0 +1,238 @@
+body
+{
+  font-family:"Montserrat";
+}
+
+#title
+{
+  background-color:#557A95;
+}
+
+h1
+{
+  font-family:"Montserrat-Black"; 
+  font-size:4rem;
+  font-weight:bold;
+  line-height:1.5;
+  color:white;
+}
+
+h2
+{
+  font-family:"Montserrat-Bold";
+  font-size:3rem;
+  font-weight:bold;
+  line-height:1.5;
+  color:black;
+}
+
+h3
+{
+  font-family:"Montserrat-Bold";
+  font-size:2rem;
+  font-weight:bold;
+  line-height:1.5;
+  color:black;
+}
+
+.container-fluid
+{
+  padding:3% 15%;
+}
+
+.navbar
+{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand
+{
+  font-family:"Montserrat-Black";
+  font-size:40px;
+}
+
+.nav-link
+{
+  font-size:1.3rem;
+  font-family:"Montserrat-Light";
+}
+
+.nav-item
+{
+  padding:0 18px;
+}
+
+.download-button
+{
+  margin: 5% 3% 5% 0;
+
+}
+
+.collapse a
+{
+  font-color:black;
+}
+
+.top_img
+{
+  width:85%;
+  transform: rotate(15deg);
+  margin-left:40px;
+}
+
+#features
+{
+  padding:7% 15%;
+  backgorund-color:white;
+}
+
+.feature-box	
+{
+  text-align:center;
+}
+
+.features h3
+{
+  font-family: bold;
+  font-size:2.5rem;
+}
+
+.symbols
+{
+  color:#ef8172; 
+  margin:1rem;
+}
+
+.symbols:hover
+{	
+  color:red;
+}
+
+/* Testimonials */
+
+#testimonials
+{
+  text-align:center;
+  background-color:#7395AE;
+}
+
+#testimonials h2
+{
+  color:white;
+}
+
+.carousel-item
+{
+  padding:7% 15%;
+}
+
+.testimonials-img
+{
+  width:10%;	
+  border-radius:100%;
+  margin:20px;	
+}
+
+
+/* Press */
+
+#press
+{
+  background-color:#7395AE;
+  padding-bottom:3%;
+  text-align:center;
+}
+
+.press_img
+{
+  width:15%;
+  margin:20px 20px 50px;
+}
+
+
+/* Pricing section */
+#pricing
+{ 
+  padding:100px;
+  text-align:center;
+}
+
+.pricing-column
+{
+  padding:3% 2%;
+}
+
+/* CTA section */
+
+#cta
+{
+  background-color:#557A95;
+  text-align:center;	
+  padding:7% 15%;		
+  
+}
+
+#cta h3
+{
+  font-family:"Montserrat-Bold";
+  font-size:3rem;
+  font-weight:bold;
+  line-height:1.5;
+  color:white;
+}
+
+#cta download-button
+{
+  margin-top:0;
+}
+
+/* Footer Section */
+
+#footer
+{
+  background-color:white;
+  color:black;
+  text-align:center;
+  padding:7% 15%;			
+}
+
+.bottom-icons
+{
+  margin:1%;
+}
+
+.twitter_icon
+{
+  color: #00acee ;
+}
+.facebook_icon
+{
+  color:blue;
+}
+.instagram_icon
+{
+  color:#8a3ab9;
+}
+.email_icon
+{
+  color:#EA4335;
+}
+
+
+/*##################*/
+
+@media (min-width:200px) &(max-width:970px)
+{
+  .title-next h1
+  {
+    text-align:center;
+  }
+  .top_img
+  {
+    width:40%;  
+    transform:rotate(0);
+  }
+}
+
+
+	
